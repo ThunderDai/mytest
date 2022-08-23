@@ -67,11 +67,6 @@ static playlist_operator_handle_t       playlist;
 static xTimerHandle                     tone_stop_tm_handle;
 static int                              auto_play_type;
 
-// const uint8_t volumes[] = { //测量等级
-//     0,30,40,50,55,
-//     60,64,68,72,75,
-//     78,81,83,85,87,
-//     89,91,93,95,97,100};
 
 int8_t volumes_init[] = { //测量等级
    0,5,10,15,20,25,
